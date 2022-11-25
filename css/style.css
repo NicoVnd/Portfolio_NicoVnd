@@ -102,17 +102,6 @@
 
 /* FIN BOUTON CV */
 
-/* PARCOURS */  
-.cards {
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
-
-/* FIN PARCOURS */
-
-
-
 /* FOOTER */
 footer {
     color: #fff;
@@ -222,6 +211,13 @@ footer .social-icon li i:hover {
 }
 /* FIN FOOTER */
 
+/* PARCOURS */  
+.cards {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* FIN PARCOURS */
 
 /* PROJETS */
 .content {
@@ -233,6 +229,8 @@ footer .social-icon li i:hover {
     display: block;
     width: 100%;
     height: auto;
+    border: 1px solid #242423;
+    border-radius: 5px;
   }
   
   .overlay {
@@ -245,6 +243,8 @@ footer .social-icon li i:hover {
     width: 100%;
     opacity: 0%;
     transition: .5s ease;
+    background-color: #242423;
+    border-radius: 5px;
   }
   
   .content:hover .overlay {
