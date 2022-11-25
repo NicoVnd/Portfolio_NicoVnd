@@ -58,14 +58,25 @@
 
 /* header */
 .bgheader {
-     background-color: #242423;
-}
+     background-image: url(../images/pc_background.jpg);
+    height: 650px;
+    }
 
 .img-fluid {
     max-width: 450px;
     height: auto;
 }
 /* FIN header */
+
+/* Présentation */
+.bgPresentation{
+    background-color: #242423;
+    color: white;
+
+}
+/* FIN Présentation */
+
+
 
 /* BOUTON CV */
 .boutonCV a{
@@ -92,10 +103,14 @@
 /* FIN BOUTON CV */
 
 /* PARCOURS */  
-
+.cards {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
 
 
 /* FIN PARCOURS */
+
 
 
 /* FOOTER */
@@ -141,7 +156,7 @@ ol, ul {
 }
 
 .footer-top {
-    background: #242423;
+    background-color: #000000;
     padding:50px 0 50px;
 }
 
@@ -206,3 +221,48 @@ footer .social-icon li i:hover {
     font-size: 18px;
 }
 /* FIN FOOTER */
+
+
+/* PROJETS */
+.content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .5s ease;
+  }
+  
+  .content:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* FIN PROJETS */
+
+  
