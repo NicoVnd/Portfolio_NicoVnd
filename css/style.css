@@ -327,7 +327,7 @@ footer .social-icon li i:hover {
     }
 
     .bgMysql {
-        background: linear-gradient(90deg, #007198 0%, #007198 100%);
+        background: linear-gradient(90deg, #007198 25%, #427a8c 75%);
     }
 
     .bgLaravel {
