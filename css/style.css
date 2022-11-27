@@ -40,7 +40,7 @@
 
 /* header */
 .bgheader {
-     background-image: url(../images/pc_background.jpg);
+     background-image: url(/images/pc_background.jpg);
     height: 650px;
     }
 
@@ -54,15 +54,8 @@
 .bgPresentation{
     background-color: #242423;
     color: white;
-
 }
 
-@media only screen and (max-width: 800px) {
-        .imgPresentation {
-            height:300px;
-            transform: translate(-22%, -3%);
-        }    
-  }
 
 
 /* FIN Présentation */
@@ -385,7 +378,15 @@ ul.adressePerso i.fa-envelope {
     20% {
       transform: translateY(-20px)
     }
-  } 
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .waviy{
+        font-size: 40px;
+    }
+  }
+
 
 /* FIN Effect text */
 
